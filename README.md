@@ -2,7 +2,7 @@
 
 Small Arduino UNO/ATmega328/P bootloader with full optiboot functionality (https://github.com/Optiboot/optiboot)
 
-ASMboot features some extra functionality:
+ASMboot features some extras:
 
 - read/write EEPROM
 - auto increment address
