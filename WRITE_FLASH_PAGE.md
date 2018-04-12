@@ -1,4 +1,4 @@
-ASMboot provides an user application callable function to write one FLASH page with data from SRAM
+ASMboot provides an user application callable function to write one(!) FLASH page with data from SRAM
 
 This might be helpful in some applications for storing bigger amounts of data then fit into EEPROM 
 but small enpugh to fit into FLASH. But beware of the limited write/erase cycles of 10.000 for FLASH (compared to 100.000 for EEPROM)
