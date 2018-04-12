@@ -1,6 +1,8 @@
 # ASMboot
 
-Small Arduino UNO/ATmega328/P bootloader with full optiboot functionality (https://github.com/Optiboot/optiboot)
+Small Arduino UNO/ATmega328/P bootloader with full optiboot functionality (https://github.com/Optiboot/optiboot) written in assembler
+
+'ready to burn'
 
 ASMboot features some extras:
 
