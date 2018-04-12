@@ -4,6 +4,8 @@ Small Arduino UNO/ATmega328/P bootloader with full optiboot functionality (https
 
 'ready to burn'
 
+256 words/512 bytes (minimum bootloader size on ATmega328) 
+
 ASMboot features some extras:
 
 - read/write EEPROM
