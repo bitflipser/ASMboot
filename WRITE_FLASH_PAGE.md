@@ -26,15 +26,3 @@ The following registers will be scrached and have to be saved before calling WRI
 
 - R0, R1, R19, R25, R24, R27:R26 (X), R31:R30 (Z)
 
-To call WRITE_PAGE_FLASH from C:
-
-- define a function 
-
-     void WRITE_FLASH_PAGE(uint16 fromSRAM, uint16 toFLASH) {
-
-                               asm ("call 0x7fc0");         // 'FLASHEND - 0x1f' on ATmega328/P
-                              
-                               }
-                               
-
-   
