@@ -20,9 +20,9 @@ To call WRITE_FLASH_PAGE from assembler:
 
 The destination address in FLASH has to be placed as byte address(!), that is the FLASH address multiplied by 2 (as it is needed for FLASH access with LPM and SPM instructions)
 
-The incremented addresses will be returned in R27:R26 (X) and R23:R22 and can be used for successive writing
+The incremented addresses will be returned in R25:R24 and R23:R22 and can be used for successive writing
 
 The following registers will be scrached and have to be saved before calling WRITE_PAGE_FLASH if they contain valid data
 
-- R0, R1, R19, R24, R25, R27:R26 (X), R31:R30 (Z)
+- R0, R1, R19, R27:R26 (X), R31:R30 (Z)
 
