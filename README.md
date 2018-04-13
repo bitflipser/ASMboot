@@ -21,4 +21,6 @@ ASMboot features some extras:
 
 'ASMboot_328_8' is for ATmega328/P running on 3,3 V at 8 MHz communicating with 57.600 baud
 
+Higher baud rates as listed (no speed-up on FTDI-devices)
+
 Easy to port to ATmega48/88/168/P
